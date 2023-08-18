@@ -12,6 +12,8 @@ button {
 
 .body {
   font-family: "Roboto", sans-serif;
+  color: #434455
+  background-color: #FFFFFF
 }
 
 .page-header {
@@ -60,13 +62,19 @@ button {
   color: #404bbf;
 }
 
+.button:hover,
+.button:focus {
+    color: #ffffff;
+    background-color: #404bbf;
+}
+
 .section-one {
   background: var(--navyblue, #2e2f42);
 }
 
 .section-one-title {
   color: var(--white, #fff);
-
+  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
@@ -112,12 +120,16 @@ button {
 
 .section-three-title {
   color: var(--navyblue, #2e2f42);
-
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.section-three-list {
+    background-color: #FFFFFF;
 }
 
 .section-three-item-title {
@@ -144,7 +156,7 @@ button {
 
 .section-four-title {
   color: var(--navyblue, #2e2f42);
-
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
