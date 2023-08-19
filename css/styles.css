@@ -12,8 +12,8 @@ button {
 
 .body {
   font-family: "Roboto", sans-serif;
-  color: #434455
-  background-color: #FFFFFF
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .page-header {
@@ -64,8 +64,8 @@ button {
 
 .button:hover,
 .button:focus {
-    color: #ffffff;
-    background-color: #404bbf;
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 .section-one {
@@ -128,8 +128,8 @@ button {
   text-transform: capitalize;
 }
 
-.section-three-list {
-    background-color: #FFFFFF;
+.section-three-item {
+  background-color: #ffffff;
 }
 
 .section-three-item-title {
